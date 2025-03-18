@@ -30,13 +30,13 @@ jobs:
                -H "Accept: application/vnd.github.v3+json" \
                -s https://api.github.com/repos/${{ github.repository }} | jq '.full_name'
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
 
       - name: create the issue branch
         uses: robvanderleek/create-issue-branch@1.7.0
         id: create-issue-branch
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
 
   notify-open-issue:
     name: "이슈 작업 시작 -> Slack 채널 알림"
