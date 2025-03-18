@@ -4,6 +4,12 @@ on:
   issues:
     types: [assigned, closed]
 
+# 필요한 권한 설정 (PR 생성을 위해 contents, issues, pull-requests에 쓰기 권한 필요)
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+
 env:
   # GitHub 사용자 이름 → Slack ID 매핑
   ASSIGNEE_SLACK_ID: ${{ secrets.ASSIGNEE_SLACK_ID }}

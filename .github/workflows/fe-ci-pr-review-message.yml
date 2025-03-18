@@ -6,6 +6,11 @@ on:
     branches:
       - fe/develop
 
+ # 필요한 권한 설정 (예: pull-requests, contents)
+permissions:
+  contents: write
+  pull-requests: write
+
 env:
   # GitHub 사용자 이름 → Slack ID 매핑
   ASSIGNEE_SLACK_ID: ${{ secrets.ASSIGNEE_SLACK_ID }}
