@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="1" failures="0" errors="0" time="0.875">
+  <testsuite name="App Component" errors="0" failures="0" skipped="0" timestamp="2025-03-17T23:44:32" time="0.663" tests="1">
+    <testcase classname="App Component should render the heading" name="App Component should render the heading" time="0.015">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,22 @@
+{
+    "lps": [
+        {
+            "id": 1,
+            "name": "LP One",
+            "description": "Description for LP One",
+            "createdAt": "2023-01-01T00:00:00Z"
+        },
+        {
+            "id": 2,
+            "name": "LP Two",
+            "description": "Description for LP Two",
+            "createdAt": "2023-02-01T00:00:00Z"
+        },
+        {
+            "id": 3,
+            "name": "LP Three",
+            "description": "Description for LP Three",
+            "createdAt": "2023-03-01T00:00:00Z"
+        }
+    ]
+}
