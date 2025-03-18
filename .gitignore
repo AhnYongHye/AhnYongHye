@@ -64,8 +64,6 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
-### Exclude .github directory ###
-/.github/
 
 ### Secret files ###
 /backend/src/main/resources/application-*.yml
